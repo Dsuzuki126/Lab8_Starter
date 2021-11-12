@@ -1,0 +1,21 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "1) For our recipe project we should put the automated tests in github actions so that whenever someone from our group pushes code to a branch the tests will run on the pushed code.\r 2) No\r 3)",
+  "main": "jest-puppeteer.config.js",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^11.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
+  }
+}
